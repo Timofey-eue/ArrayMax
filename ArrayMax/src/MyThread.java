@@ -16,7 +16,7 @@ public class MyThread implements Runnable{
 
     public ArrayMax parallelFind() throws InterruptedException {
         return this.result; // Странно работает, лучше спросить у Вадима, но оно работает, я сам в ахуе если честно, что так можно было.
-                            // Короче, строка 14, мы записали max в результат и оно много поточно все посчитало. !!!! НО ЛУЧШЕ СПРОСИТЬ У ВАДИМА !!!!
+                            
     }
 
     public void run() { // Сам поиск максимального числа.
