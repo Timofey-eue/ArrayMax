@@ -15,7 +15,7 @@ public class MyThread implements Runnable{
     }
 
     public ArrayMax parallelFind() throws InterruptedException {
-        return this.result; // Странно работает, лучше спросить у Вадима, но оно работает, я сам в ахуе если честно, что так можно было.
+        return this.result; 
                             
     }
 
